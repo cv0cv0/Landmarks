@@ -38,6 +38,8 @@
 		8326621A23B4AA9F008136DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8326621823B4AA9F008136DA /* LaunchScreen.storyboard */; };
 		8326623E23B4BB1B008136DA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8326623D23B4BB1B008136DA /* CircleImage.swift */; };
 		8326624123B5AB00008136DA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8326624023B5AB00008136DA /* MapView.swift */; };
+		8338E38823C08FEB0088BD65 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338E38723C08FEB0088BD65 /* Home.swift */; };
+		8338E38A23C094470088BD65 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338E38923C094470088BD65 /* CategoryRow.swift */; };
 		834F587B23BCB7A7008ACE36 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F587A23BCB7A7008ACE36 /* UserData.swift */; };
 		8383E96123BECB9A00A55FA1 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383E96023BECB9A00A55FA1 /* BadgeBackground.swift */; };
 		8383E96323BECD4600A55FA1 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8383E96223BECD4600A55FA1 /* BadgeSymbol.swift */; };
@@ -80,6 +82,8 @@
 		8326621B23B4AA9F008136DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8326623D23B4BB1B008136DA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		8326624023B5AB00008136DA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8338E38723C08FEB0088BD65 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8338E38923C094470088BD65 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		834F587A23BCB7A7008ACE36 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		8383E96023BECB9A00A55FA1 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		8383E96223BECD4600A55FA1 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 		830253F323B5D8B4008F49EB /* Landmark Views */ = {
 			isa = PBXGroup;
 			children = (
+				8302544623B5F32F008F49EB /* LandmarkList.swift */,
 				8326621123B4AA9B008136DA /* LandmarkDetail.swift */,
 				830253F423B5D8E3008F49EB /* LandmarkRow.swift */,
 			);
@@ -167,7 +172,7 @@
 				8326623F23B4BB97008136DA /* Supporting Views */,
 				8326620D23B4AA9B008136DA /* AppDelegate.swift */,
 				8326620F23B4AA9B008136DA /* SceneDelegate.swift */,
-				8302544623B5F32F008F49EB /* LandmarkList.swift */,
+				8338E38723C08FEB0088BD65 /* Home.swift */,
 				8326621323B4AA9F008136DA /* Assets.xcassets */,
 				8326621823B4AA9F008136DA /* LaunchScreen.storyboard */,
 				8326621B23B4AA9F008136DA /* Info.plist */,
@@ -194,6 +199,7 @@
 				831B47CA23BF27A5004625B1 /* HikeGraph.swift */,
 				831B47CE23BF292C004625B1 /* GraphCapsule.swift */,
 				831B47D023BF2C1B004625B1 /* HikeDetail.swift */,
+				8338E38923C094470088BD65 /* CategoryRow.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -301,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8338E38A23C094470088BD65 /* CategoryRow.swift in Sources */,
 				831B47C923BF23D7004625B1 /* Hike.swift in Sources */,
 				831B47CB23BF27A5004625B1 /* HikeGraph.swift in Sources */,
 				8383E96123BECB9A00A55FA1 /* BadgeBackground.swift in Sources */,
@@ -314,6 +321,7 @@
 				8383E96323BECD4600A55FA1 /* BadgeSymbol.swift in Sources */,
 				8383E96523BEDBAC00A55FA1 /* RotatedBadgeSymbol.swift in Sources */,
 				8302544723B5F32F008F49EB /* LandmarkList.swift in Sources */,
+				8338E38823C08FEB0088BD65 /* Home.swift in Sources */,
 				8326624123B5AB00008136DA /* MapView.swift in Sources */,
 				8326621023B4AA9B008136DA /* SceneDelegate.swift in Sources */,
 				8326621223B4AA9B008136DA /* LandmarkDetail.swift in Sources */,

@@ -22,8 +22,8 @@ struct HikeDetail: View {
         VStack {
             HikeGraph(hike: hike, path: dataToShow)
                 .frame(height: 200)
-                .padding(.top, 20)
-                .padding(.bottom, 70)
+                .padding(.top, -20)
+                .padding(.bottom, 40)
           
             HStack(spacing: 25) {
                 ForEach(buttons, id: \.0) { value in

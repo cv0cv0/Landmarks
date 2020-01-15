@@ -21,6 +21,7 @@ struct CategoryHome: View {
     }
     
     @State var showingPriofile = false
+    @EnvironmentObject var userData: UserData
     
     var profileButton: some View {
         Button(action: { self.showingPriofile.toggle() }) {
@@ -55,7 +56,8 @@ struct CategoryHome: View {
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingPriofile) {
-                Text("User Profile")
+                ProfileHost()
+                    .environmentObject(self.userData)
             }
         }
     }
